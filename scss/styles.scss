@@ -1,0 +1,21 @@
+// Color Patterns
+$primary-color: #02557d;
+$secondary-color: #ffb749;
+$success-color: #769fbf;
+$info-color: #306e96;
+$warning-color: #c45729;
+$danger-color: #dd3e0e;
+$light-color: #f9f9fb;
+$dark-color: #1b1e21;
+
+// Bootstrap Variables
+$primary: $primary-color;
+$secondary: $secondary-color;
+$success: $success-color;
+$info: $info-color;
+$warning: $warning-color;
+$danger: $danger-color;
+$light: $light-color;
+$dark: $dark-color;
+
+@import "../libs/bootstrap/scss/bootstrap.scss";

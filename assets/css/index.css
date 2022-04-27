@@ -1,0 +1,102 @@
+:root {
+  --primary-color: #02557d;
+  --secondary-color: #ffb749;
+  --success-color: #769fbf;
+  --info-color: #306e96;
+  --warning-color: #c45729;
+  --danger-color: #dd3e0e;
+  --light-color: #f9f9fb;
+  --dark-color: #1b1e21;
+  --white-color: #fff;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+main {
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+button {
+  width: 100%;
+  height: 100%;
+  border: 2px solid var(--white-color) !important;
+  border-radius: 40px !important;
+  color: var(--white-color) !important;
+}
+
+input {
+  all: unset;
+  background-color: #e5e5e5;
+  border-radius: 14px;
+  width: 100%;
+  height: 30px;
+}
+
+input::placeholder {
+  font-family: 'Asap', sans-serif;
+  color: #909090;
+  padding-left: 24px;
+}
+
+textarea {
+  all: unset;
+  background-color: #e5e5e5;
+  border-radius: 10px;
+  font-size: 0.95rem;
+  resize: none;
+}
+
+textarea::placeholder {
+  font-family: 'Asap', sans-serif;
+  color: #909090;
+  padding-left: 24px;
+}
+
+/*************** Start Navbar ******************/
+
+.nav-pills .nav-link .active,
+.nav-pills .show > .nav-link {
+  background-color: var(--secondary-color);
+  color: var(--primary-color) !important;
+}
+
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  background-color: var(--secondary-color);
+  color: var(--primary-color) !important;
+}
+
+/*************** End Navbar ******************/
+
+/*************** Start about section ******************/
+#about {
+  height: 100vh;
+  background-image: url('/assets/images/IMAGEN\ HERO.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#about::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: var(--primary-color);
+  opacity: 0.5;
+}
+/*************** End about section ******************/
+#courses {
+  height: 100vh;
+}
+#team {
+  height: 100vh;
+}
+#contact {
+  height: 100vh;
+}
