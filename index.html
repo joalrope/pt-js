@@ -29,56 +29,72 @@
     <title>Universidad</title>
   </head>
   <body>
-    <div>
+    <div class="d-flex flex-column">
       <!--********************* Start Navbar *******************-->
+      <div
+        class="d-flex flex-column flex-sm-row justify-content-center justify-content-sm-between sticky-top bg-primary text-white w-100 py-1"
+        style="padding-left: 85px; padding-right: 104px"
+      >
+        <section class="d-flex flex-column flex-sm-row">
+          <div class="d-flex align-items-center justify-content-center me-0 me-sm-5">
+            <figure class="figure m-0">
+              <img class="mb-0" src="./assets/icons/phone.png" alt="phone icon" width="17px" />
+            </figure>
+            <p class="mb-0 ms-2 flex-shrink-0">123 456 789</p>
+          </div>
+          <div class="d-flex align-items-center justify-content-center">
+            <figure class="figure m-0">
+              <img class="mb-0" src="./assets/icons/email.png" alt="phone icon" width="20px" />
+            </figure>
+            <p style="font-size: 0.95em" class="mb-0 ms-2">info@email.com</p>
+          </div>
+        </section>
 
-      <nav id="navigation" class="navbar fixed-top flex-column flex-sm-row py-0">
-        <div
-          class="d-flex flex-column flex-sm-row justify-content-center justify-content-sm-between bg-primary text-white w-100 h-auto py-3"
-          style="padding-left: 85px; padding-right: 104px"
-        >
-          <section class="d-flex flex-column flex-sm-row">
-            <div class="d-flex align-items-center justify-content-center me-0 me-sm-5">
-              <figure class="figure m-0">
-                <img class="mb-0" src="./assets/icons/phone.png" alt="phone icon" width="17px" />
-              </figure>
-              <p class="mb-0 ms-2 flex-shrink-0">123 456 789</p>
-            </div>
-            <div class="d-flex align-items-center justify-content-center">
-              <figure class="figure m-0">
-                <img class="mb-0" src="./assets/icons/email.png" alt="phone icon" width="20px" />
-              </figure>
-              <p style="font-size: 0.95em" class="mb-0 ms-2">info@email.com</p>
-            </div>
-          </section>
+        <section class="d-flex justify-content-center align-items-center mt-2 mt-sm-0 pb-0">
+          <figure class="figure d-flex align-items-center mb-0">
+            <img src="./assets/icons/youtube.png" alt="youtube icon" height="15px" style="margin-right: 30px" />
+            <img src="./assets/icons/instagram.png" alt="instagram icon" height="15px" style="margin-right: 30px" />
+            <img src="./assets/icons/facebook.png" alt="facebook icon" height="15px" />
+          </figure>
+        </section>
+      </div>
 
-          <section class="mt-2 mt-sm-0">
-            <div class="d-flex justify-content-center align-items-center">
-              <figure class="figure d-flex align-items-center mb-0">
-                <img src="./assets/icons/youtube.png" alt="youtube icon" height="15px" style="margin-right: 30px" />
-                <img src="./assets/icons/instagram.png" alt="instagram icon" height="15px" style="margin-right: 30px" />
-                <img src="./assets/icons/facebook.png" alt="facebook icon" height="15px" />
-              </figure>
-            </div>
-          </section>
+      <nav id="navigation" class="navbar navbar-expand-lg bg-transparent sticky-top mt-0">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">
+            <img class="pt-2" src="/assets/images/LOGO.png" alt="universty logo" width="130px" height="65px" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="true"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarScroll">
+            <ul
+              class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll nav nav-pills"
+              style="--bs-scroll-height: 200px"
+            >
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#about">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#courses">courses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#team">team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">contac</a>
+              </li>
+            </ul>
+          </div>
         </div>
-        <a class="navbar-brand" href="#">
-          <img class="pt-2 ps-5" src="/assets/images/LOGO.png" alt="university logo" width="180px" height="65px" />
-        </a>
-        <ul class="nav nav-pills">
-          <li class="nav-item">
-            <a class="nav-link" href="#about">About Us</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#courses">Courses</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#team">Team</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#contact">Contact</a>
-          </li>
-        </ul>
       </nav>
 
       <!--********************* End Navbar  ********************-->
@@ -87,9 +103,7 @@
         <!--**************** Start About Section ***************-->
 
         <section id="about">
-          <div class="about">
-            <h2>About Us ggg</h2>
-          </div>
+          <div class="about-container">kkkkkkk</div>
         </section>
 
         <!--***************** End About Section ****************-->
