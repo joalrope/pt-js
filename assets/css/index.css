@@ -8,6 +8,7 @@
   --light-color: #f9f9fb;
   --dark-color: #1b1e21;
   --white-color: #fff;
+  --margin-section: -100px;
 }
 
 body {
@@ -58,9 +59,11 @@ textarea::placeholder {
 /*************** Start Navbar ******************/
 
 .navbar-toggler {
-  background-color: transparent;
-  border: 2px solid var(--secondary-color) !important;
-  border-radius: 0.25rem !important;
+  border-color: var(--secondary-color);
+}
+
+.custom-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 183, 73, 0.66)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
 }
 
 #navigation {
@@ -83,6 +86,10 @@ textarea::placeholder {
 /*************** End Navbar ******************/
 
 /*************** Start about section ******************/
+#about {
+  margin-top: var(--margin-section);
+}
+
 .about-container {
   position: relative;
   height: 100vh;
@@ -91,7 +98,7 @@ textarea::placeholder {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  padding-top: 75px;
+  padding-top: 120px;
 }
 
 .about-container::after {
@@ -103,15 +110,46 @@ textarea::placeholder {
   right: 0;
   background-color: var(--primary-color);
   opacity: 0.5;
+  padding-top: 120px;
 }
 
 /*************** End about section ******************/
+
+/*************** Start courses section ******************/
+
 #courses {
+  /* margin-top: var(--margin-section); */
   height: 100vh;
 }
+
+.courses-container {
+  padding-top: 120px;
+}
+
+/*************** End courses section ******************/
+
+/*************** Start team section ******************/
+
 #team {
+  /* margin-top: var(--margin-section); */
   height: 100vh;
 }
+
+.team-container {
+  padding-top: 120px;
+}
+
+/*************** End team section ******************/
+
+/*************** Start contact section ******************/
+
 #contact {
+  /* margin-top: var(--margin-section); */
   height: 100vh;
 }
+
+.contact-container {
+  padding-top: 120px;
+}
+
+/*************** End contact section ******************/
